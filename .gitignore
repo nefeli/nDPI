@@ -1,4 +1,5 @@
 *~
+*.a
 /aclocal.m4
 /autom4te.cache/
 .autotools
@@ -23,6 +24,8 @@ compile
 /example/build
 *.in
 /install-sh
+/fuzz/.deps/
+/fuzz/Makefile
 *.ko
 *.la
 /libndpi.pc
@@ -42,12 +45,16 @@ compile
 *o.cmd
 *o.cmd
 .project
+python/Makefile
 .settings
+*.so
 /src/include/Makefile
+/src/include/ndpi_api.h
 /src/include/ndpi_config.h
 /src/include/ndpi_define.h
 /src/lib/.deps/
 /src/lib/Makefile
+/src/lib/*.so.*
 /src/lib/protocols/.deps/
 /src/lib/third_party/src/.deps/
 stamp-h1
